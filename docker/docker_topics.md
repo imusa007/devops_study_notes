@@ -1,20 +1,20 @@
 # Important Docker concepts
 
-__1. Docker Engine__
+1. Docker Engine
     1. [[Architecture]]
     2. [[Daemon]]
-    .  3. [[Namespaces]]
+    3. [[Namespaces]]
     4. Control Groups (cgroups)
     5. OCI (Open Container Initiative) Standards
     6. Swarm Mode
     7. Container Lifecycle
     8. Storage Drivers
     9. Networking Drivers
-    10. Plugins
+    10. Pluginsk
     11. Runtime
 ---------------------------------------------------
  
-__2. Docker Images__
+2. Docker Images
     1. Creation
     2. Layers
     3. Tags
@@ -32,7 +32,7 @@ __2. Docker Images__
     15. Image Build Context
 ---------------------------------------------------
 
-__3. Docker Containers__
+3. Docker Containers
     1. Creation
     2. Lifecycle (start, stop, restart)
     3. Management (ps, inspect, rm, etc.)
@@ -50,7 +50,7 @@ __3. Docker Containers__
     15. Export/Import Containers
     16. Attaching to Running Containers
 ------------------------------------------
-__4. Dockerfile__
+4. Dockerfile
     1. Format and Syntax
     2. FROM (Base Image)
     3. RUN (Execute Commands)
@@ -72,7 +72,7 @@ __4. Dockerfile__
     19. Docker Build Command
     20. dockerignore File
 --------------------------------
-__5. Docker Compose__
+5. Docker Compose
     1. Compose File (docker-compose.yml)
     2. Version Specification
     3. Services Definition
@@ -94,7 +94,7 @@ __5. Docker Compose__
     19. Compose in Production Environments
     20. Best Practices (File Organization, Security)
 --------------------------------------
-__6. Docker Hub__
+6. Docker Hub
     1. Repositories
     2. Pushing Images
     3. Pulling Images
@@ -114,7 +114,7 @@ __6. Docker Hub__
     17. Image Versioning
     18. Repository Description and Documentation
 ----------------------------
-__7. Docker Networking__
+7. Docker Networking
     1. Network Drivers (bridge, host, overlay, macvlan, none)
     2. Bridge Network
     3. Host Network
@@ -135,7 +135,7 @@ __7. Docker Networking__
     18. IP Address Management (IPAM)
     19. Network Performance Tuning
 ------------------------------------------
-__8. Docker Volumes__
+8. Docker Volumes
     1. Volume Creation and Deletion
     2. Mounting Volumes
     3. Named Volumes
@@ -154,7 +154,7 @@ __8. Docker Volumes__
     16. Security and Permissions
     17. Volume Performance Tuning
 ---------------------------------
-__9. Docker Security__
+9. Docker Security
     1. Container Isolation
     2. Security Profiles (AppArmor, SELinux)
     3. User Namespaces
@@ -176,7 +176,7 @@ __9. Docker Security__
     19. System Call Filtering
     20. Avoid Running Containers as Root
 ------------------------------
-__10. Docker CLI Commands__
+10. Docker CLI Commands
     1. `docker run`
     2. `docker build`
     3. `docker ps` (and `docker container ls`)
@@ -209,7 +209,7 @@ __10. Docker CLI Commands__
     30. `docker config`
     31. Command Options (e.g., `-d`, `--name`, `--rm`, `--env`, etc.)
 -----------------------------------
-__11. Building Images__
+11. Building Images
     1. Dockerfile
     2. `docker build` Command
     3. Build Context
@@ -231,7 +231,7 @@ __11. Building Images__
     19. Building for Different Architectures (e.g., ARM)
     20. Troubleshooting Build Errors
 -------------------------------
-__12. Managing Containers__
+12. Managing Containers
     1. `docker run` Command
     2. Container Lifecycle (start, stop, pause, unpause, restart)
     3. `docker ps` (List Containers)
@@ -260,7 +260,7 @@ __12. Managing Containers__
     26. Export/Import Containers
     27. Read-Only Containers
 ----------------------------------------------------
-__13. Docker Registry__
+13. Docker Registry
     1. Image Storage
     2. Pushing Images
     3. Pulling Images
@@ -282,7 +282,7 @@ __13. Docker Registry__
     19. Multi-tenancy Support
     20. Audit Logging and Monitoring
 --------------------------------------
-__14. Optimizing Dockerfiles__
+14. Optimizing Dockerfiles
     1. Multi-Stage Builds
     2. Minimizing Number of Layers
     3. `COPY` and `ADD` Best Practices
@@ -304,7 +304,7 @@ __14. Optimizing Dockerfiles__
     19. Optimizing for Startup Time
     20. Analyzing and Auditing Images (e.g., using `dive` or other tools)
 -------------------------------------
-__15. Docker Logging and Monitoring__
+15. Docker Logging and Monitoring
     1. Logging Drivers (json-file, syslog, journald, gelf, fluentd, etc.)
     2. `docker logs` Command
     3. Log Rotation and Retention Policies
