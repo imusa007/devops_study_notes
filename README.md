@@ -41,3 +41,7 @@ __DevSecOps:__ Security will increasingly be integrated into the DevOps process,
 __More Comprehensive Automation:__ As tools continue to mature, more and more of the software development process will be automated, allowing teams to focus on creating value rather than managing infrastructure and deployments.
 
 __Wider Organizational Adoption:__ DevOps will no longer be a set of practices employed by high-tech companies or IT departments. It will become the standard way of working across many industries and departments, reflecting a broader cultural shift toward more collaborative, agile, and customer-centric ways of working.
+
+### Contents
+
+[1. Continuous Integration (CI)](/Cotinuous_Integration_CI.md)
