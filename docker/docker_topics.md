@@ -1,9 +1,9 @@
 # Important Docker concepts
 
 1. Docker Engine
-    1. [[Architecture]]
-    2. [[Daemon]]
-    3. [[Namespaces]]
+    1. [Architecture](/docker/architechture.md)
+    2. [Daemon]
+    3. [Namespaces]
     4. Control Groups (cgroups)
     5. OCI (Open Container Initiative) Standards
     6. Swarm Mode
