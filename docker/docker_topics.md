@@ -4,7 +4,7 @@
     1. [Architecture](/docker/architechture.md)
     2. [Daemon]
     3. [Namespaces]
-    4. Control Groups (cgroups)
+    4. [Control Groups (cgroups)](/docker/control_groups.md)
     5. OCI (Open Container Initiative) Standards
     6. Swarm Mode
     7. Container Lifecycle
